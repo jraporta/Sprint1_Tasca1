@@ -16,12 +16,13 @@ public abstract class Instrument {
 		Instrument.contador ++;
 	}
 	
-	abstract void tocar();
+	public abstract void tocar();
 	
-	public static void NumberOfInstruments() {
+	public static void numberOfInstruments() {
 		System.out.println("S'han creat " + Instrument.contador + " instruments");
 	}
 	
+	@Override
 	public String toString() {
 		return "Aquest instrument és un " + this.nom + " i té un preu de " + this.preu + "€";
 	}

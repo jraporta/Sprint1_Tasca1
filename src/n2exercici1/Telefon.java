@@ -15,6 +15,7 @@ public class Telefon {
 		System.out.println("S'està trucant al telèfon " + numTelefon);
 	}
 	
+	@Override
 	public String toString() {
 		return "Són un telèfon de la marca " + this.marca + " i el model " + this.model;
 	}

@@ -30,6 +30,7 @@ public class Cotxe {
 		System.out.println("El vehicle està accelerant");
 	}
 	
+	@Override
 	public String toString() {
 		return "Sóc un cotxe de la marca " + Cotxe.marca + " i model " + Cotxe.model
 				+ " i la meva potència és de " + this.potencia;

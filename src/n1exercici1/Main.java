@@ -10,7 +10,7 @@ public class Main {
 		
 		
 		//Demostració de la càrrega de la classe Instrument provocada per l'accés a un membre estàtic de la Classe
-		Instrument.NumberOfInstruments();
+		Instrument.numberOfInstruments();
 		
 		//Demostració de la càrrega de la classe InstrumentDeVent per la instanciació de la classe
 		flauta = new InstrumentDeVent("flauta", 35);
@@ -29,7 +29,7 @@ public class Main {
 		flauta.tocar();
 		oboe.tocar();
 		//Instruments ya estava carregada, no ho fa un 2n cop
-		Instrument.NumberOfInstruments();
+		Instrument.numberOfInstruments();
 	
 
 	}

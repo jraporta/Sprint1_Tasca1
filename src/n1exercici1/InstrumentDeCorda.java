@@ -12,7 +12,7 @@ public class InstrumentDeCorda extends Instrument{
 	}
 
 	@Override
-	void tocar() {
+	public void tocar() {
 		// TODO Auto-generated method stub
 		System.out.println("Està sonant un instrumet de corda");
 	}
